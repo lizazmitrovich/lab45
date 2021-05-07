@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation"
+    android:orientation="vertical"
+    tools:context=".Fragments.PostFragment"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/titlePost"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:hint="NAME"
+        android:gravity="center|top"
+        android:textColor="#2E2C2C"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageMusic"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    <TextView
+        android:id="@+id/descriptionPost"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_gravity="center"
+        android:hint="NAME"
+        android:textColor="#2E2C2C"
+        android:textColorHint="#2E2C2C"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="121dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center|end"
+        android:text="Back" />
+
+</LinearLayout>
